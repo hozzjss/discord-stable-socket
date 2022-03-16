@@ -1,0 +1,23 @@
+{
+    "name": "discord-stable-socket",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "tsc && node lib/index.js",
+        "dev": "tsnd --respawn index.ts"
+    },
+    "keywords": [],
+    "author": "hz",
+    "license": "ISC",
+    "dependencies": {
+        "discord.js": "^13.6.0",
+        "socket.io": "^4.4.1"
+    },
+    "devDependencies": {
+        "dotenv": "^16.0.0",
+        "ts-node": "^10.7.0",
+        "ts-node-dev": "^1.1.8"
+    }
+}
